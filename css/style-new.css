@@ -37,7 +37,6 @@ header{background:#f6f7fb;position:fixed;top:0;z-index:1000!important}
 .owl-carousel .owl-dots{display:none}
 a{color: #0c4679}
 a:hover{text-decoration: none;}
-
 /*==========================================*/
 /* New Banner css*/
 /*==========================================*/
@@ -81,6 +80,9 @@ a:hover{text-decoration: none;}
 .treatment_all_comm_div.banner_new_section h2{font-size:16px!important;font-weight:400;line-height:normal;color:#fff;text-align:center}
 }
 .offer_section{color:#fff!important;line-height:normal;font-size:18px;margin-bottom:0;border:1px solid #fff;display:inline-block;padding:10px 20px;font-weight:400}
+.offer_section {
+  min-height: 80px; /* reserve height to avoid shifting */
+}
 .offer_section span{font-size:45px;font-weight:800;color:#fff}
 @media (max-width:1200px){
 .offer_section {font-size: 12px !important}
@@ -109,103 +111,6 @@ a:hover{text-decoration: none;}
 .blue-strip-offer-section{text-align:right;color:#fff;font-size:14px;position:relative;bottom:-18px}
 @media (max-width:600px){
 .blue-strip-offer-section{text-align:right;padding-bottom:20px;margin-top:-155px;font-size:12px;font-weight:600;writing-mode:vertical-rl;text-orientation:mixed;transform:scale(1)}
-}
-/*==========================================*/
-/* offer-blue section css*/
-/*==========================================*/
-.offer-background-sec{background:#eeeff6;box-shadow:0 1px 3px rgb(230 242 254)}
-.blue_patch_iconcls{border-radius:50%;margin-top:10px;margin-bottom:10px}
-.offer-head-main{padding-top:15px;padding-left:10px;color:#0c4679;font-size:18px;line-height:24px;font-weight:600}
-@media (max-width:1600px){
-.offer-head-main{padding-top:15px;color:#0c4679;font-size:18px;line-height:24px}
-}
-@media (max-width:1200px){
-.offer-head-main{padding-top:15px;color:#0c4679;font-size:16px;line-height:21px}
-}
-@media (max-width:1024px){
-.offer-head-main{padding-top:15px;color:#0c4679;font-size:14px;line-height:18px}
-}
-@media (max-width:600px){
-.offer-head-main{padding-top:15px;color:#0c4679;font-size:16px;line-height:25px;padding-left:5px}
-.offer-background-sec{padding-top:5px;padding-bottom:5px}
-}
-.after_after_section .icon_banner_foot_slider .owl-dots{display:none}
-.after_after_section .icon_banner_foot_slider .owl-item img{width:auto}
-.after_after_section .icon_banner_foot_slider .owl-next,.after_after_section .icon_banner_foot_slider .owl-prev{position:absolute;top:-5px;height:100%}
-.after_after_section .icon_banner_foot_slider .owl-prev{left:-15px;background-color:transparent!important}
-.after_after_section .icon_banner_foot_slider .owl-next{right:-15px;background-color:transparent!important}
-@media(max-width:600px){
-.after_after_section .icon_banner_foot_slider .owl-item img{width:52px}
-.after_after_section .icon_banner_foot_slider .owl-prev{left:-5px;background-color:transparent!important}
-.after_after_section .icon_banner_foot_slider .owl-next{right:-5px;background-color:transparent!important}
-}
-/*==========================================*/
-/* Before After Images Slider css*/
-/*==========================================*/
-.treatment_all_comm_div.before_after_slider{padding-top:40px}
-.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-dots{display:none}
-.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-item img{width:100%}
-.treatment_all_comm_div .screenshot_slider .owl-prev,.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-next{position:absolute;top:-5px;height:100%}
-.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-prev{left:-15px;background-color:transparent!important}
-.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-next{right:-15px;background-color:transparent!important}
-@media(max-width:768px){
-.treatment_all_comm_div.before_after_slider{padding-top:30px}
-}
-@media(max-width:600px){
-.treatment_all_comm_div.before_after_slider{padding-top:30px}
-.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-prev{left:-5px;background-color:transparent!important}
-.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-next{right:-5px;background-color:transparent!important}
-}
-/*==========================================*/
-/* Video css*/
-/*==========================================*/
-.treatment_all_comm_div.video_testmonilas_section{padding-top:40px}
-.treatment_all_comm_div.video_testmonilas_section .test-v-cls{bottom:10px;position:absolute;padding:5px 5px}
-.treatment_all_comm_div.video_testmonilas_section .resultsImg{position:absolute;bottom:210px;right:10px}
-.treatment_all_comm_div.video_testmonilas_section .resultsImg img{width:70px!important}
-.treatment_all_comm_div.video_testmonilas_section .test-v-para{font-size:16px!important;color:#fff;font-weight:400;margin-bottom:0}
-.treatment_all_comm_div.video_testmonilas_section .test-v-subheading{color:#b99863;font-size:18px!important;font-weight:600;margin-bottom:0}
-.treatment_all_comm_div.video_testmonilas_section .img-test-before-after-v{position:absolute;top:10px;right:10px}
-@media screen and (max-width:600px){
-.treatment_all_comm_div.video_testmonilas_section .resultsImg{position:absolute;bottom:360px;right:20px}
-.treatment_all_comm_div.video_testmonilas_section .resultsImg img{width:100px}
-.treatment_all_comm_div.video_testmonilas_section .mfp-iframe-holder .mfp-content{line-height:0;width:100%;max-width:900px;height:90%}
-.treatment_all_comm_div.video_testmonilas_section.video_testmonilas_section{padding-top:40px}
-}
-@media screen and (max-width:400px){
-.treatment_all_comm_div.video_testmonilas_section .resultsImg{position:absolute;bottom:290px;right:20px}
-.treatment_all_comm_div.video_testmonilas_section .resultsImg img{width:90px}
-}
-.treatment_all_comm_div.video_testmonilas_section .text-play-btn-img{width:30px!important;margin-right:10px!important}
-.treatment_all_comm_div.video_testmonilas_section .popup-vimeo{display:ruby;color:#fff;font-weight:600}
-.treatment_all_comm_div.video_testmonilas_section .popup-vimeo:hover{text-decoration:none}
-.treatment_all_comm_div.video_testmonilas_section #testimonilas_slider .owl-dots{display:none}
-.treatment_all_comm_div.video_testmonilas_section #testimonilas_slider .owl-item img{width:100%}
-#testimonilas_slider .owl-prev,.treatment_all_comm_div.video_testmonilas_section #testimonilas_slider .owl-next{position:absolute;top:-5px;height:100%}
-.treatment_all_comm_div.video_testmonilas_section #testimonilas_slider .owl-prev{left:-15px;background-color:transparent!important}
-.treatment_all_comm_div.video_testmonilas_section #testimonilas_slider .owl-next{right:-15px;background-color:transparent!important}
-@media screen and (max-width:600px){
-.treatment_all_comm_div.video_testmonilas_section #testimonilas_slider .owl-prev{left:-5px;background-color:transparent!important}
-.treatment_all_comm_div.video_testmonilas_section #testimonilas_slider .owl-next{right:-5px;background-color:transparent!important}
-}
-/*==========================================*/
-/* Blue Icon box section css*/
-/*==========================================*/
-.treatment_all_comm_div.blue_icon_box_section{margin-top:50px}
-.treatment_all_comm_div.blue_icon_box_section .container{padding:40px;background-color:#e0f3ff;border-radius:20px}
-.treatment_all_comm_div.blue_icon_box_section .icon_box_why{width:56px;height:56px;padding:10px;margin-right:12px;background-color:#0c4679;border-radius:6px}
-.treatment_all_comm_div.blue_icon_box_section p{line-height:normal;font-size:18px!important;font-weight:300;line-height:normal;margin-bottom:0}
-.treatment_all_comm_div.blue_icon_box_section p span{font-size:24px!important;font-weight:600}
-.treatment_all_comm_div.blue_icon_box_section .content_box_why_pcos{display:inline-flex;align-items:center;}
-@media (max-width:1680px){
-.treatment_all_comm_div.blue_icon_box_section p{font-size:16px!important}
-.treatment_all_comm_div.blue_icon_box_section p span{font-size:18px!important;font-weight:600}
-.treatment_all_comm_div.blue_icon_box_section .content_box_why_pcos{display:inline-flex;align-items:center;}
-}
-@media (max-width:600px){
-.treatment_all_comm_div.blue_icon_box_section{margin-top:30px}
-.treatment_all_comm_div.blue_icon_box_section .container{padding:30px 15px}
-.treatment_all_comm_div.blue_icon_box_section p span{font-size:18px!important;font-weight:600}
 }
 /*=====================================================================*/
 /* Less content Blue Icon box section css*/
