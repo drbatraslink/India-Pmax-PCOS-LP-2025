@@ -130,6 +130,26 @@ a:hover{text-decoration: none;}
 .treatment_all_comm_div.blue_icon_box_section_less_content p span{font-size:18px!important;font-weight:600}
 .treatment_all_comm_div.blue_icon_box_section_less_content p{width:85%;font-size:16px}
 }
+/*==========================================*/
+/* Blue Icon box section css*/
+/*==========================================*/
+.treatment_all_comm_div.blue_icon_box_section{margin-top:50px}
+.treatment_all_comm_div.blue_icon_box_section .container{padding:40px;background-color:#e0f3ff;border-radius:20px}
+.treatment_all_comm_div.blue_icon_box_section .icon_box_why{width:56px;height:56px;padding:10px;margin-right:12px;background-color:#0c4679;border-radius:6px}
+.treatment_all_comm_div.blue_icon_box_section p{line-height:normal;font-size:18px!important;font-weight:300;line-height:normal;margin-bottom:0}
+.treatment_all_comm_div.blue_icon_box_section p span{font-size:24px!important;font-weight:600}
+.treatment_all_comm_div.blue_icon_box_section .content_box_why_pcos{display:inline-flex;align-items:center}
+@media (max-width:1680px){
+.treatment_all_comm_div.blue_icon_box_section p{font-size:16px!important}
+.treatment_all_comm_div.blue_icon_box_section p span{font-size:18px!important;font-weight:600}
+.treatment_all_comm_div.blue_icon_box_section .content_box_why_pcos{display:inline-flex;align-items:flex-start;}
+}
+@media (max-width:600px){
+.treatment_all_comm_div.blue_icon_box_section{margin-top:30px}
+.treatment_all_comm_div.blue_icon_box_section .container{padding:30px 15px}
+/*.treatment_all_comm_div.blue_icon_box_section p{width:85%}*/
+.treatment_all_comm_div.blue_icon_box_section p span{font-size:18px!important;font-weight:600}
+}
 /*=====================================================================*/
 /* icon with Background section css*/
 /*=====================================================================*/
