@@ -37,6 +37,7 @@ header{background:#f6f7fb;position:fixed;top:0;z-index:1000!important}
 .owl-carousel .owl-dots{display:none}
 a{color: #0c4679}
 a:hover{text-decoration: none;}
+
 /*==========================================*/
 /* New Banner css*/
 /*==========================================*/
@@ -112,6 +113,104 @@ a:hover{text-decoration: none;}
 @media (max-width:600px){
 .blue-strip-offer-section{text-align:right;padding-bottom:20px;margin-top:-155px;font-size:12px;font-weight:600;writing-mode:vertical-rl;text-orientation:mixed;transform:scale(1)}
 }
+/*==========================================*/
+/* offer-blue section css*/
+/*==========================================*/
+.offer-background-sec{background:#eeeff6;box-shadow:0 1px 3px rgb(230 242 254)}
+.blue_patch_iconcls{border-radius:50%;margin-top:10px;margin-bottom:10px}
+.offer-head-main{padding-top:15px;padding-left:10px;color:#0c4679;font-size:18px;line-height:24px;font-weight:600}
+@media (max-width:1600px){
+.offer-head-main{padding-top:15px;color:#0c4679;font-size:18px;line-height:24px}
+}
+@media (max-width:1200px){
+.offer-head-main{padding-top:15px;color:#0c4679;font-size:16px;line-height:21px}
+}
+@media (max-width:1024px){
+.offer-head-main{padding-top:15px;color:#0c4679;font-size:14px;line-height:18px}
+}
+@media (max-width:600px){
+.offer-head-main{padding-top:15px;color:#0c4679;font-size:16px;line-height:25px;padding-left:5px}
+.offer-background-sec{padding-top:5px;padding-bottom:5px}
+}
+.after_after_section .icon_banner_foot_slider .owl-dots{display:none}
+.after_after_section .icon_banner_foot_slider .owl-item img{width:auto}
+.after_after_section .icon_banner_foot_slider .owl-next,.after_after_section .icon_banner_foot_slider .owl-prev{position:absolute;top:-5px;height:100%}
+.after_after_section .icon_banner_foot_slider .owl-prev{left:-15px;background-color:transparent!important}
+.after_after_section .icon_banner_foot_slider .owl-next{right:-15px;background-color:transparent!important}
+@media(max-width:600px){
+.after_after_section .icon_banner_foot_slider .owl-item img{width:52px}
+.after_after_section .icon_banner_foot_slider .owl-prev{left:-5px;background-color:transparent!important}
+.after_after_section .icon_banner_foot_slider .owl-next{right:-5px;background-color:transparent!important}
+}
+/*==========================================*/
+/* Before After Images Slider css*/
+/*==========================================*/
+.treatment_all_comm_div.before_after_slider{padding-top:40px}
+.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-dots{display:none}
+.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-item img{width:100%}
+.treatment_all_comm_div .screenshot_slider .owl-prev,.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-next{position:absolute;top:-5px;height:100%}
+.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-prev{left:-15px;background-color:transparent!important}
+.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-next{right:-15px;background-color:transparent!important}
+@media(max-width:768px){
+.treatment_all_comm_div.before_after_slider{padding-top:30px}
+}
+@media(max-width:600px){
+.treatment_all_comm_div.before_after_slider{padding-top:30px}
+.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-prev{left:-5px;background-color:transparent!important}
+.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-next{right:-5px;background-color:transparent!important}
+}
+/*==========================================*/
+/* Video css*/
+/*==========================================*/
+.treatment_all_comm_div.video_testmonilas_section{padding-top:40px}
+.treatment_all_comm_div.video_testmonilas_section .test-v-cls{bottom:10px;position:absolute;padding:5px 5px}
+.treatment_all_comm_div.video_testmonilas_section .resultsImg{position:absolute;bottom:210px;right:10px}
+.treatment_all_comm_div.video_testmonilas_section .resultsImg img{width:70px!important}
+.treatment_all_comm_div.video_testmonilas_section .test-v-para{font-size:16px!important;color:#fff;font-weight:400;margin-bottom:0}
+.treatment_all_comm_div.video_testmonilas_section .test-v-subheading{color:#b99863;font-size:18px!important;font-weight:600;margin-bottom:0}
+.treatment_all_comm_div.video_testmonilas_section .img-test-before-after-v{position:absolute;top:10px;right:10px}
+@media screen and (max-width:600px){
+.treatment_all_comm_div.video_testmonilas_section .resultsImg{position:absolute;bottom:360px;right:20px}
+.treatment_all_comm_div.video_testmonilas_section .resultsImg img{width:100px}
+.treatment_all_comm_div.video_testmonilas_section .mfp-iframe-holder .mfp-content{line-height:0;width:100%;max-width:900px;height:90%}
+.treatment_all_comm_div.video_testmonilas_section.video_testmonilas_section{padding-top:40px}
+}
+@media screen and (max-width:400px){
+.treatment_all_comm_div.video_testmonilas_section .resultsImg{position:absolute;bottom:290px;right:20px}
+.treatment_all_comm_div.video_testmonilas_section .resultsImg img{width:90px}
+}
+.treatment_all_comm_div.video_testmonilas_section .text-play-btn-img{width:30px!important;margin-right:10px!important}
+.treatment_all_comm_div.video_testmonilas_section .popup-vimeo{display:ruby;color:#fff;font-weight:600}
+.treatment_all_comm_div.video_testmonilas_section .popup-vimeo:hover{text-decoration:none}
+.treatment_all_comm_div.video_testmonilas_section #testimonilas_slider .owl-dots{display:none}
+.treatment_all_comm_div.video_testmonilas_section #testimonilas_slider .owl-item img{width:100%}
+#testimonilas_slider .owl-prev,.treatment_all_comm_div.video_testmonilas_section #testimonilas_slider .owl-next{position:absolute;top:-5px;height:100%}
+.treatment_all_comm_div.video_testmonilas_section #testimonilas_slider .owl-prev{left:-15px;background-color:transparent!important}
+.treatment_all_comm_div.video_testmonilas_section #testimonilas_slider .owl-next{right:-15px;background-color:transparent!important}
+@media screen and (max-width:600px){
+.treatment_all_comm_div.video_testmonilas_section #testimonilas_slider .owl-prev{left:-5px;background-color:transparent!important}
+.treatment_all_comm_div.video_testmonilas_section #testimonilas_slider .owl-next{right:-5px;background-color:transparent!important}
+}
+/*==========================================*/
+/* Blue Icon box section css*/
+/*==========================================*/
+.treatment_all_comm_div.blue_icon_box_section{margin-top:50px}
+.treatment_all_comm_div.blue_icon_box_section .container{padding:40px;background-color:#e0f3ff;border-radius:20px}
+.treatment_all_comm_div.blue_icon_box_section .icon_box_why{width:56px;height:56px;padding:10px;margin-right:12px;background-color:#0c4679;border-radius:6px}
+.treatment_all_comm_div.blue_icon_box_section p{width:85%;line-height:normal;font-size:18px!important;font-weight:300;line-height:normal;margin-bottom:0}
+.treatment_all_comm_div.blue_icon_box_section p span{font-size:24px!important;font-weight:600}
+.treatment_all_comm_div.blue_icon_box_section .content_box_why_pcos{display:inline-flex;align-items:flex-start}
+@media (max-width:1680px){
+.treatment_all_comm_div.blue_icon_box_section p{font-size:16px!important}
+.treatment_all_comm_div.blue_icon_box_section p span{font-size:18px!important;font-weight:600}
+.treatment_all_comm_div.blue_icon_box_section .content_box_why_pcos{display:inline-flex;align-items:flex-start;}
+}
+@media (max-width:600px){
+.treatment_all_comm_div.blue_icon_box_section{margin-top:30px}
+.treatment_all_comm_div.blue_icon_box_section .container{padding:30px 15px}
+.treatment_all_comm_div.blue_icon_box_section p{width:85%}
+.treatment_all_comm_div.blue_icon_box_section p span{font-size:18px!important;font-weight:600}
+}
 /*=====================================================================*/
 /* Less content Blue Icon box section css*/
 /*=====================================================================*/
@@ -131,47 +230,11 @@ a:hover{text-decoration: none;}
 .treatment_all_comm_div.blue_icon_box_section_less_content p{width:85%;font-size:16px}
 }
 /*==========================================*/
-/* Blue Icon box section css*/
-/*==========================================*/
-.treatment_all_comm_div.blue_icon_box_section{margin-top:50px}
-.treatment_all_comm_div.blue_icon_box_section .container{padding:40px;background-color:#e0f3ff;border-radius:20px}
-.treatment_all_comm_div.blue_icon_box_section .icon_box_why{width:56px;height:56px;padding:10px;margin-right:12px;background-color:#0c4679;border-radius:6px}
-.treatment_all_comm_div.blue_icon_box_section p{line-height:normal;font-size:18px!important;font-weight:300;line-height:normal;margin-bottom:0}
-.treatment_all_comm_div.blue_icon_box_section p span{font-size:24px!important;font-weight:600}
-.treatment_all_comm_div.blue_icon_box_section .content_box_why_pcos{display:inline-flex;align-items:center}
-@media (max-width:1680px){
-.treatment_all_comm_div.blue_icon_box_section p{font-size:16px!important}
-.treatment_all_comm_div.blue_icon_box_section p span{font-size:18px!important;font-weight:600}
-.treatment_all_comm_div.blue_icon_box_section .content_box_why_pcos{display:inline-flex;align-items:flex-start;}
-}
-@media (max-width:600px){
-.treatment_all_comm_div.blue_icon_box_section{margin-top:30px}
-.treatment_all_comm_div.blue_icon_box_section .container{padding:30px 15px}
-/*.treatment_all_comm_div.blue_icon_box_section p{width:85%}*/
-.treatment_all_comm_div.blue_icon_box_section p span{font-size:18px!important;font-weight:600}
-}
-/*=====================================================================*/
-/* icon with Background section css*/
-/*=====================================================================*/
-.treatment_all_comm_div.icon_with_blue_patch_bg_section{margin-top:50px}
-.treatment_all_comm_div.icon_with_blue_patch_bg_section .icon_box_why{width:56px;height:56px;padding:10px;margin-right:12px;background-color:#0c4679;border-radius:6px}
-.treatment_all_comm_div.icon_with_blue_patch_bg_section .content_box_why_pcos p{width:85%;line-height:normal;font-size:18px!important;font-weight:300;line-height:normal;margin-bottom:0}
-.treatment_all_comm_div.icon_with_blue_patch_bg_section .content_box_why_pcos p span{font-size:24px!important;font-weight:600}
-.treatment_all_comm_div.icon_with_blue_patch_bg_section .content_box_why_pcos{display:inline-flex;align-items:start}
-@media (max-width:1680px){
-.treatment_all_comm_div.icon_with_blue_patch_bg_section .content_box_why_pcos p,.treatment_all_comm_div.icon_with_blue_patch_bg_section p{font-size:16px!important}
-}
-@media (max-width:600px){
-.treatment_all_comm_div.icon_with_blue_patch_bg_section{margin-top:30px}
-.treatment_all_comm_div.icon_with_blue_patch_bg_section .content_box_why_pcos p{width:85%}
-.treatment_all_comm_div.icon_with_blue_patch_bg_section .content_box_why_pcos p span{font-size:18px!important;font-weight:600}
-}
-/*==========================================*/
 /* Medicen Alopecia section css*/
 /*==========================================*/
 .treatment_all_comm_div.icon_without_bg_section{margin-top:40px}
 .treatment_all_comm_div.icon_without_bg_section .icon_box_why{width:56px;height:56px;padding:5px 0;margin-right:12px;background-color:#fff;border-radius:6px;text-align:center}
-.treatment_all_comm_div.icon_without_bg_section h3{font-size: 24px; color: #000000; font-weight: 600}
+.treatment_all_comm_div.icon_without_bg_section  h3{font-size: 24px; color: #000000; font-weight: 600}
 .treatment_all_comm_div.icon_without_bg_section p{line-height:normal;font-size:18px!important;font-weight:300;line-height:normal;margin-bottom:0}
 .treatment_all_comm_div.icon_without_bg_section .content_box_why_pcos p{width:100%;line-height:normal;font-size:18px!important;font-weight:300;line-height:normal;margin-bottom:0}
 .treatment_all_comm_div.icon_without_bg_section p span{font-size:24px!important;font-weight:600}
@@ -179,7 +242,7 @@ a:hover{text-decoration: none;}
 .treatment_all_comm_div.icon_without_bg_section h5{font-size:24px!important;font-weight:600}
 @media (max-width:1680px){
 .treatment_all_comm_div.icon_without_bg_section .content_box_why_pcos p,.treatment_all_comm_div.icon_without_bg_section p{font-size:16px!important}
-.treatment_all_comm_div.icon_without_bg_section h3{font-size: 18px;}
+.treatment_all_comm_div.icon_without_bg_section  h3{font-size: 18px;}
 }
 @media (max-width:600px){
 .treatment_all_comm_div.icon_without_bg_section{margin-top:30px}
@@ -282,7 +345,7 @@ a:hover{text-decoration: none;}
 .form_section_div{margin-top:40px;z-index:1;position:relative}
 .form_custom_bg_testmonilas{background:#ecf7ff;padding:20px;box-shadow:none;border-radius:20px}
 .form_custom_heading_testmonilas{margin-bottom:0;font-size:28px;text-align:center;font-weight:600;color:#000;line-height:normal}
-.btn_custom_testmonilas{width:100%;margin-bottom:0;height:calc(1.5em + .75rem + 2px);line-height:1.6;color:#fff;border-radius:25px;font-weight:500;border:none;background-color:#0c4679!important}
+.btn_custom_testmonilas{width:auto;margin-bottom:0;height:calc(1.5em + .75rem + 2px);line-height:1.6;color:#fff;border-radius:25px;font-weight:500;border:none;background-color:#0c4679!important}
 .btn_custom_testmonilas:hover{color:#fff!important}
 .form-lable-new-form-css{font-size:14px;font-weight:500;color:#187fc3;margin-bottom:5px}
 .testmonilas_form_custom .form-group{margin-bottom:5px;margin-top:15px}
@@ -304,22 +367,20 @@ a:hover{text-decoration: none;}
 @media(max-width:1200px){
 .form_custom_heading_testmonilas{margin-bottom:0;font-size:21px;text-align:center;font-weight:600;color:#212121;line-height:normal}
 .btn_custom_testmonilas{font-size:16px;margin-top:10px}
-.btn_div_outside{width:40%}
 .testmonilas_form_custom .form-group{margin-bottom:10px}
 .form_section_div{margin-top:30px}
 }
 @media(max-width:860px){
 .form_custom_heading_testmonilas{margin-bottom:0;font-size:26px;text-align:center;font-weight:600;color:#212121;line-height:normal}
 .form_colum_custom{width:50%}
-.btn_div_outside{width:50%}
 .form_colum_custom_two{width: 50%}
 }
 @media(max-width:600px){
-.btn_div_outside{width:100% !important;padding:0 15px}
+.btn_div_outside{width:100%;padding:0 15px}
 .testmonilas_form_custom .form-group{margin-bottom:5px;margin-top:0}
 .form_custom_heading_testmonilas{margin-bottom:0;font-size:24px;text-align:center;font-weight:600;color:#212121;line-height:normal}
 .testmonilas_form_custom .form-group{margin-bottom:10px}
-.btn_custom_testmonilas{width: 100%!important; margin-top:0;font-size:16px}
+.btn_custom_testmonilas{margin-top:0;font-size:16px}
 .form_custom_bg_testmonilas{padding:20px 0;box-shadow:none;margin:auto;width:98%;border-radius:0}
 .form_section_div{margin-top:30px}
 .form_colum_custom,.form_custom_bg_testmonilas{width:100%}
@@ -339,7 +400,7 @@ a:hover{text-decoration: none;}
 .form-container .form_colum_custom_two{width:100%;margin-bottom:5px}
 .form-container .testmonilas_form_custom .form-group{margin-bottom:5px;margin-top:0}
 .form-container .btn_custom_testmonilas{width:100%}
-.chat-popup .btn_div_outside{width:100% !important;padding:0 15px}
+.chat-popup .btn_div_outside{width:100%;padding:0 15px}
 .chat-popup .form_custom_heading_testmonilas{margin-bottom:10px; font-size: 24px}
 .chat-popup .form_custom_bg_testmonilas{padding:15px 5px;border-radius:0;background-color:#fff;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
 @media (max-width:600px){
@@ -457,28 +518,3 @@ a:hover{text-decoration: none;}
 .treatment_all_comm_div .your_privacy_matter_section{margin-top:0px}
 }
 .btn_book_appoinment_box{position:fixed;z-index:8;bottom:0}
-/*==========================================*/
-/* table css*/
-/*==========================================*/
-.PCOS_div_new.table_section{padding-top:40px!important}
-.PCOS_div_new.table_section .table-responsive{white-space:unset!important;border:none!important}
-@media(max-width:600px){
-.PCOS_div_new.table_section{padding-top:30px!important}
-}
-.PCOS_div_new .table_comparision_css{font-family:Inter,sans-serif!important;border-collapse:separate;border-spacing:0;margin-bottom:0;background-color:#f6f7fb!important;padding:20px 40px;border-radius:20px!important;-webkit-border-radius:20px!important;-moz-border-radius:20px!important;-ms-border-radius:20px!important;-o-border-radius:20px!important}
-.PCOS_div_new .table_comparision_css td,.PCOS_div_new .table_comparision_css th{border-top:none;border-bottom:none;font-family:Inter,sans-serif!important;border:0!important;padding:12px!important;background:#f6f7fb!important;white-space:unset!important}
-.PCOS_div_new .table_comparision_css th{text-align:center;font-size:21px!important;line-height:normal;font-weight:600!important;color:#000!important}
-.PCOS_div_new .table_comparision_css td{text-align:center;font-size:18px!important;font-weight:500!important;width:30%!important;line-height:normal}
-.PCOS_div_new .table_comparision_css td:first-child,.PCOS_div_new .table_comparision_css th:first-child{text-align:left}
-@media screen and (max-width:600px){
-.PCOS_div_new .table_comparision_css{padding:15px!important}
-.PCOS_div_new .table_comparision_css td,.PCOS_div_new .table_comparision_css th{padding:10px 5px!important}
-.PCOS_div_new .table_comparision_css td img,.PCOS_div_new .table_comparision_css th img{width:20px!important}
-.PCOS_div_new .table_comparision_css th{text-align:center;font-size:14px!important}
-.PCOS_div_new .table_comparision_css td{text-align:center;font-size:14px!important;font-weight:500!important}
-.PCOS_div_new .table_comparision_css td:first-child{width:60%!important}
-}
-.What_section_pcos{margin-top:50px}
-@media screen and (max-width:600px){
-.What_section_pcos{margin-top:30px}
-}
